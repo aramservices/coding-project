@@ -1,0 +1,71 @@
+body {
+    color: #000000;
+    background-color: #ffffff;
+    font-family: "reg-font";
+    font-size: 16px;
+}
+
+@font-face {
+    font-family: "reg-font";
+    src: url(Squad-Regular.ttf);
+}
+
+@font-face {
+    font-family: "head-font";
+    src: url(AbrilFatface-Regular.ttf);
+}
+
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 700px;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.headtxt {
+    width: 420px;
+}
+
+h1 {
+    font-family: "head-font";
+}
+
+.headtxt h1 a {
+    font-size: 42px;
+    text-decoration: none;
+    color: #000000;
+}
+
+nav {
+    display: block;
+    width: 800px;
+    margin-left: 150px;
+    max-width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+
+nav a {
+    display: inline-block;
+    color: #000000;
+    padding-left: 40px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.aboutme {
+    width: 700px;
+    max-width: 100%;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    box-sizing: border-box;
+    margin: auto;
+    text-align: center;
+}
